@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "react-app1/**"
     
 env:
   # Forces all actions in this workflow to run on Node.js 24
