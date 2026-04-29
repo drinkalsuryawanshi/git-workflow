@@ -5,6 +5,9 @@ on:
       - main
     paths:
       - "react-app1/**"
+
+  workflow_dispatch: # to run pipeline manually
+  # you will get run workflow button in browser
     
 env:
   # Forces all actions in this workflow to run on Node.js 24
